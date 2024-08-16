@@ -1,10 +1,10 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
+# load_dotenv()
 import streamlit as st
 import openai
 import os
 from langchain.chat_models import ChatOpenAI
 
-load_dotenv()
 
 # ChatGPT API 호출
 def call_chatgpt_api(message):
